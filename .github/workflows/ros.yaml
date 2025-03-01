@@ -5,8 +5,6 @@ on:
   push:
     branches: 
       - humble*
-      - iron*
-      - rolling*
   workflow_dispatch:
     
 jobs:
