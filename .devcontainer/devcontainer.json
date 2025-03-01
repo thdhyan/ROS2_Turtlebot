@@ -8,15 +8,28 @@
 	},
 	"remoteUser": "ros",
 	"runArgs": [
+		"--privileged",
+		// "--gpus=all",
+		"--volume=/home/dhyan/ds4drv:/opt/ds4drv",
 		"--network=host",
 		"--cap-add=SYS_PTRACE",
 		"--security-opt=seccomp:unconfined",
 		"--security-opt=apparmor:unconfined",
 		"--volume=/tmp/.X11-unix:/tmp/.X11-unix",
 		"--volume=/mnt/wslg:/mnt/wslg",
-		"--ipc=host"
+		"--ipc=host",
+		"--volume=/run/udev/data:/run/udev/data ",
+		// "--gpus all"
 		// uncomment to use intel iGPU
 		// "--device=/dev/dri"
+		//  Mount all bluetooth devices
+		// "--device=/dev/bus/usb:/dev/bus/usb",
+		// "--device=/dev/uinput:/dev/uinput",
+		// "--device=/dev/input/js0:/dev/input/js0",
+		// // give access to all event devices
+		// "--device=/dev/input:/dev/input",
+		// "--device=/dev/hicdcddraw2:/dev/hidraw2",
+		"--volume=/dev:/dev"
 	],
 	"containerEnv": {
 		"DISPLAY": "${localEnv:DISPLAY}", // Needed for GUI try ":0" for windows

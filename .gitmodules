@@ -1,0 +1,32 @@
+[submodule "src/examples"]
+	path = src/examples
+	url = https://github.com/ros2/examples.git
+	branch = humble
+[submodule "src/turtlebot3/turtlebot3"]
+	path = src/turtlebot3/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+	branch = main
+[submodule "src/turtlebot3/turtlebot3_msgs"]
+	path = src/turtlebot3/turtlebot3_msgs
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+	branch = main
+[submodule "src/turtlebot3/turtlebot3_simulations"]
+	path = src/turtlebot3/turtlebot3_simulations
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+	branch = main
+[submodule "src/utils/DynamixelSDK"]
+	path = src/utils/DynamixelSDK
+	url = https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+	branch = main
+[submodule "src/utils/hls_lfcd_lds_driver"]
+	path = src/utils/hls_lfcd_lds_driver
+	url = https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver.git
+	branch = main
+[submodule "src/utils/ld08_driver"]
+	path = src/utils/ld08_driver
+	url = https://github.com/ROBOTIS-GIT/ld08_driver.git
+	branch = main
+[submodule "src/HarvestX/PlayStation-JoyInterface-ROS2"]
+	path = src/HarvestX/PlayStation-JoyInterface-ROS2
+	url = https://github.com/HarvestX/PlayStation-JoyInterface-ROS2
+	branch = humble
