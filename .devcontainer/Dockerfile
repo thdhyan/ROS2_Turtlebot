@@ -68,12 +68,4 @@ ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES graphics,utility,compute
 
 ENV QT_X11_NO_MITSHM=1
-# ENV DISPLAY=:0
-# WORKDIR /opt/ds4drv
-# # run as root
-# USER root
-# RUN pip3 install evdev
-# RUN python3 setup.py install
 
-# USER ros
-# WORKDIR WORKSPACE
