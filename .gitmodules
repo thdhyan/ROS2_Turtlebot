@@ -1,4 +1,0 @@
-[submodule "src/HarvestX/PlayStation-JoyInterface-ROS2"]
-	path = src/HarvestX/PlayStation-JoyInterface-ROS2
-	url = https://github.com/HarvestX/PlayStation-JoyInterface-ROS2
-	branch = humble
